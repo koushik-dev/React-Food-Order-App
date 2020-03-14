@@ -1,0 +1,39 @@
+.card-container {
+    flex-direction: column;
+    border-radius: 5px;
+    background-color: wheat;
+    max-width: 350px;
+}
+.card-container hr {
+    width: 100%;
+    border-right: 0;
+    border-left: 0;
+}
+.card-container img {
+    padding: 20px;
+}
+.card-container p {
+    padding: 0 20px;
+}
+.details {
+    padding: 20px;
+}
+.details .price {
+    font-weight: 900;
+    padding: 10px 0;
+}
+.details .add {
+    border: 0;
+    padding: 10px;
+    border-radius: 3px;
+    background: #6c62ff;
+    color: white;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1439px) {
+    .card-container {
+        max-width: 300px;
+        margin: 10px auto;
+    }
+}
