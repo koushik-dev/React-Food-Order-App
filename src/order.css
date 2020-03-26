@@ -1,0 +1,8 @@
+.card-holder {
+    flex-wrap: wrap;
+}
+@media screen and (max-width: 1439px) {
+    .card-holder {
+        flex-direction: column;
+    }
+}
