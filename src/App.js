@@ -10,8 +10,6 @@ import Contact from './contact';
 function App() {
   return (
     <div className="App">
-      
-
       <Router>
         <nav id="nav" className="flex nav">
           <h1><Link to="/"><img className="logo" src={logo} alt="logo" /></Link></h1>
