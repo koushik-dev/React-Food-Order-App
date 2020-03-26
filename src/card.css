@@ -31,7 +31,7 @@
     font-weight: bold;
 }
 
-@media screen and (max-width: 1439px) {
+@media screen and (max-width: 768px) {
     .card-container {
         max-width: 300px;
         margin: 10px auto;

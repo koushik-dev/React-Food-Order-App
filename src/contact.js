@@ -3,9 +3,6 @@ import './contact.css';
 
 function Contact() {
     const [formValue, setValue] = useState({ });
-    function valueChange(event) {
-        this.setValue({...this.formValue, name: event.target.value})
-    }
     return (
       <div className="contact-container">
         <form className="flex">

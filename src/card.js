@@ -4,7 +4,7 @@ import img from './images/food.svg'
 function Card() {
     return (
         <div className="flex card-container">
-            <img src={img} style={{height:'230px'}} />
+            <img src={img} style={{height:'230px'}} alt="food plate" />
             <hr/>
             <p>Text about the image that is shown above.</p>
             <div className="details flex justify-between">

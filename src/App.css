@@ -29,7 +29,7 @@
   padding: 50px;
 }
 
-@media screen and (max-width: 1439px) {
+@media screen and (max-width: 768px) {
   .nav h1 {
     text-align: center;
   }
